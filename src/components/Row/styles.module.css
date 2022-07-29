@@ -1,0 +1,16 @@
+.active, .completed {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+  align-items: center;
+  user-select: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.input {
+  width: 30px;
+}
